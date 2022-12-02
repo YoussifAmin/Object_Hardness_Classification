@@ -18,6 +18,7 @@ int main()
     int result;
     float correct = 0;
     float accuracy;
+    // nested loop for normalization
     for (int i = 0; i < N_SAMPLE; i++)
     {
         for(int  j= 0; j < SAMPLE_DIM; j+=16)
