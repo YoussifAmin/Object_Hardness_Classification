@@ -1,1 +1,13 @@
 
+Source files:
+- Test_sample.c contains: * data_max & data_min that are used to normalize the test sample
+                          * one test sample of size 40 x 16 (i.e., 40 datum from each of the 16 sensor)
+
+- cnn_params.c contains: * the weights and biases for the 1D-convultional layers
+                         * the weights and biases of the single-hidden and output layers of the fully connected neural network.
+                         
+- Conv.c correpsonds to the 1D convolutional layer function.
+- Avg_pool.c corresponds to the average pooling layer function.
+- flatten.c correponds to the flatining function.
+- Fully_connected.c correponds to two fully connected layers (first layer with fused ReLU).
+- sofmax.c correponds to the softmax function.
